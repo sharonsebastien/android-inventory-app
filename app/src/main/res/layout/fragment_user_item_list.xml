@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserItemList">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:id="@+id/notFound"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:background="@drawable/notfound"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="No Data Found"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="80dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroundshadow"
+        android:weightSum="2"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/cartCount"
+            android:layout_width="wrap_content"
+            android:text="1 Item"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_weight="2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/goToCart"
+            android:layout_width="wrap_content"
+            android:text="Go To Cart"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="170dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:text="Pen Box (10 Pens)"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/qtyText"
+            android:layout_width="wrap_content"
+            android:text="Qty: 10"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:text="User Name: MCA Department"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:text="Created At: 2022-07-08: 11:88:33"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/stockLeftText"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="Stock Left:100"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="APPROVED"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/rejectBtn"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_close_24"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/approveBtn"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_check_24"
+
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</LinearLayout>

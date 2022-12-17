@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_user_profile">User Profile</string>
+    <string name="menu_order_history">Order History</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/backgroundshadow.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/ic_baseline_reorder_24.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2285" />
+        <entry key="app/src/main/res/drawable/ic_round_person_24.xml" value="0.2285" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/activity_admin_main.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/activity_user_landing.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/activity_user_login.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/activity_user_main.xml" value="0.11354166666666667" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/fragment_admin_category_conf.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_admin_category_list.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/fragment_admin_conf_item.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/fragment_admin_conf_user.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_admin_item_list.xml" value="0.21193695068359375" />
+        <entry key="app/src/main/res/layout/fragment_admin_landing.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_order_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_admin_profile.xml" value="0.2439117431640625" />
+        <entry key="app/src/main/res/layout/fragment_admin_user_list.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_user_cart.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_user_item_list.xml" value="0.21758880615234377" />
+        <entry key="app/src/main/res/layout/fragment_user_landing.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_user_order_list.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/fragment_user_profile.xml" value="0.11354166666666667" />
+        <entry key="app/src/main/res/layout/layout.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/layout/listadminorder.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/listcategoryadmin.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/listproductadmin.xml" value="0.29441070556640625" />
+        <entry key="app/src/main/res/layout/listproductuser.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/listuseradmin.xml" value="0.33035278320312506" />
+        <entry key="app/src/main/res/layout/listusercart.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/listusercategory.xml" value="0.2546875" />
+        <entry key="app/src/main/res/layout/listuserorder.xml" value="0.240625" />
+        <entry key="app/src/main/res/menu/adminmenu.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
